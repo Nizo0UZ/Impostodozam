@@ -22,7 +22,7 @@ public class Imposto3 {
          edu = ler.nextDouble();
          
          if(sal < 0 || serv < 0 || cap < 0 || med < 0 || edu < 0){
-             System.out.println("ERRO! VALOR(S) INVÁLIDO(S)");
+             System.out.println("ERRO! VALOR(ES) INVÁLIDO(S)");
          } else{
          //calcular imposto salario
          double salmes, impsal;
